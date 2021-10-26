@@ -1,5 +1,9 @@
 package com.company;
 
+/**
+ * test brunch
+ */
+
 public class Circle {
     double radius; //радиус окружности
     double circumference; //длина окружности
@@ -20,7 +24,7 @@ public class Circle {
     double square(){
         return Math.PI*radius*radius;
     }
-
+// test1
     public static void main(String[] args) {
         Circle newObject=new Circle(12,"white");
         double circumference;

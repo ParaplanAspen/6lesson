@@ -7,11 +7,11 @@ public class Pizza {
     double price;
     double dianeter;
     Pizza(Circle bas,String com,String nam,double pr, double diam){
-        basic=bas;
-        composiyion=com;
-        name=nam;
-        price=pr;
-        dianeter=diam;
+        this.basic=bas;
+        this.composiyion=com;
+        this.name=nam;
+        this.price=pr;
+        this.dianeter=diam;
 
     }
 
